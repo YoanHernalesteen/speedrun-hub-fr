@@ -1,0 +1,663 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://oengus.io/api/v1/marathons/forDates?end=2026-12-15T00:00:00Z&start=2026-11-20T00:00:00Z&zoneId=UTC
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - SpeedrunHubFR
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 15 Nov 2026 19:43:32 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      Cache-Control:
+      - max-age=1800, must-revalidate, public
+      Permissions-Policy:
+      - interest-cohort=(), web-share=(self "https://oengus.fun" "https://ong.run")
+      Referrer-Policy:
+      - no-referrer
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Access-Control-Request-Headers
+      - Access-Control-Request-Method
+      - Origin
+      Via:
+      - 1.1 Caddy
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      - DENY
+      X-Xss-Protection:
+      - '0'
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+      Age:
+      - '171'
+      Last-Modified:
+      - Sun, 15 Nov 2026 19:40:41 GMT
+      Cf-Cache-Status:
+      - HIT
+      Report-To:
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=zodejSBg5mXw4t%2FZr1z8Jg6Ky%2FMyAXHLBaizXdZQPtfg1c4hAWV5teWoJ%2B4vMeikB7wmM9aoPX1XSF0POd5LCv1KmtbQ7qOGRNakt72FGt1kfk4kJMI%2Bc4geG4A%3D"}]}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - a5b0bed55c747028-CDG
+    body:
+      encoding: UTF-8
+      string: '[{"country":null,"endDate":"2026-11-23T05:49:00Z","id":"comp26","language":"en","location":null,"name":"Completithon
+        2026","onsite":false,"private":false,"startDate":"2026-11-18T22:00:00Z","submissionsEndDate":"2026-09-21T03:59:00Z"},{"country":null,"endDate":"2026-11-23T22:27:00Z","id":"cisnt4","language":"en","location":null,"name":"Cisnt
+        Winter 2026","onsite":false,"private":false,"startDate":"2026-11-20T19:30:00Z","submissionsEndDate":"2026-10-08T22:59:00Z"},{"country":"US","endDate":"2026-11-22T22:53:00Z","id":"sslfwa26","language":"en","location":"Centralia,
+        WA","name":"Speed Stuff at InfernaLAN 2026","onsite":true,"private":false,"startDate":"2026-11-21T01:00:00Z","submissionsEndDate":"2026-10-26T07:59:00Z"},{"country":"GB","endDate":"2026-11-22T18:20:00Z","id":"asm-brig","language":"en","location":"Brighton
+        Anime & Gaming Con","name":"Albion Speedrun Marathon Brighton","onsite":true,"private":false,"startDate":"2026-11-21T09:55:00Z","submissionsEndDate":"2026-10-04T22:59:00Z"},{"country":null,"endDate":"2026-11-22T21:49:00Z","id":"Sharcom26","language":"en","location":null,"name":"SHARCOM
+        2026","onsite":false,"private":false,"startDate":"2026-11-21T10:00:00Z","submissionsEndDate":"2026-11-02T12:00:00Z"},{"country":"DE","endDate":"2026-11-28T23:10:00Z","id":"birdhouse","language":"de","location":null,"name":"Birdhouse
+        - Charity Streamer Projekt","onsite":true,"private":false,"startDate":"2026-11-26T15:00:00Z","submissionsEndDate":"2026-07-18T16:00:00Z"},{"country":null,"endDate":"2026-11-29T21:30:00Z","id":"NDS3","language":"fr","location":null,"name":"Nitro
+        Days for SPDA 2026","onsite":false,"private":false,"startDate":"2026-11-27T17:00:00Z","submissionsEndDate":"2026-09-27T21:59:00Z"},{"country":"JP","endDate":"2026-11-29T11:40:00Z","id":"gcrtat5","language":"ja","location":"東京・立川ゲームセンターWILL","name":"Ge-sen
+        de RTA in TOKYO-5","onsite":true,"private":false,"startDate":"2026-11-29T03:00:00Z","submissionsEndDate":"2026-08-30T15:00:00Z"},{"country":null,"endDate":"2027-01-02T04:15:00Z","id":"RRLAT10","language":"en","location":null,"name":"Really
+        Really Long A Thon 10","onsite":false,"private":false,"startDate":"2026-12-01T16:00:00Z","submissionsEndDate":"2026-10-31T19:00:00Z"},{"country":null,"endDate":"2026-12-07T00:00:00Z","id":"P4P2026","language":"en","location":null,"name":"Pixels
+        for People 2026","onsite":false,"private":false,"startDate":"2026-12-04T12:00:00Z","submissionsEndDate":"2026-11-16T05:00:00Z"},{"country":null,"endDate":"2026-12-07T08:45:00Z","id":"bingow26","language":"en-GB","location":null,"name":"Bingothon
+        Winter 2026","onsite":false,"private":false,"startDate":"2026-12-04T13:00:00Z","submissionsEndDate":"2026-11-08T21:59:00Z"},{"country":null,"endDate":"2026-12-13T18:00:00Z","id":"SRMZX","language":"en","location":null,"name":"Speedromizer
+        X","onsite":false,"private":false,"startDate":"2026-12-04T18:00:00Z","submissionsEndDate":null},{"country":"JP","endDate":"2026-12-05T10:10:00Z","id":"dsr23","language":"ja","location":"京都・下鴨　喫茶ギャラリーさろん淳平","name":"Don-t
+        Stop Running-23","onsite":true,"private":false,"startDate":"2026-12-05T01:30:00Z","submissionsEndDate":"2026-11-06T15:00:00Z"},{"country":null,"endDate":"2026-12-06T13:05:00Z","id":"pgrf6","language":"ja","location":null,"name":"Puzzle
+        Game RTA Festival 6","onsite":false,"private":false,"startDate":"2026-12-05T03:00:00Z","submissionsEndDate":"2026-08-02T15:00:00Z"},{"country":null,"endDate":"2026-12-14T21:00:00Z","id":"sre11","language":"es","location":null,"name":"SRE11","onsite":false,"private":false,"startDate":"2026-12-05T17:00:00Z","submissionsEndDate":"2026-11-23T09:00:00Z"},{"country":null,"endDate":"2026-12-13T22:59:00Z","id":"FE26","language":"de","location":null,"name":"Fun
+        Event 2026","onsite":false,"private":false,"startDate":"2026-12-07T07:00:00Z","submissionsEndDate":"2026-11-22T22:59:00Z"},{"country":null,"endDate":"2026-12-13T22:59:00Z","id":"cst2026","language":"fr","location":null,"name":"Celets
+        Speed Together 2026","onsite":false,"private":false,"startDate":"2026-12-10T20:00:00Z","submissionsEndDate":"2026-11-08T22:59:00Z"},{"country":null,"endDate":"2026-12-13T22:30:00Z","id":"SitD26","language":"en","location":null,"name":"Shine
+        in the Dark 2026","onsite":false,"private":false,"startDate":"2026-12-11T10:30:00Z","submissionsEndDate":"2026-11-13T22:59:00Z"},{"country":null,"endDate":"2026-12-13T22:30:00Z","id":"biothon","language":"en","location":null,"name":"Biowareathon
+        Tribute","onsite":false,"private":false,"startDate":"2026-12-12T17:30:00Z","submissionsEndDate":"2026-11-19T17:30:00Z"}]'
+  recorded_at: Sun, 15 Nov 2026 19:43:34 GMT
+- request:
+    method: get
+    uri: https://oengus.io/api/v1/marathons/NDS3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - SpeedrunHubFR
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 15 Nov 2026 19:43:32 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      Cache-Control:
+      - max-age=60, must-revalidate, public
+      Permissions-Policy:
+      - interest-cohort=(), web-share=(self "https://oengus.fun" "https://ong.run")
+      Referrer-Policy:
+      - no-referrer
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Access-Control-Request-Headers
+      - Access-Control-Request-Method
+      - Authorization
+      - Origin
+      Via:
+      - 1.1 Caddy
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      - DENY
+      X-Xss-Protection:
+      - '0'
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+      Last-Modified:
+      - Sun, 15 Nov 2026 19:43:32 GMT
+      Cf-Cache-Status:
+      - EXPIRED
+      Report-To:
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=xLhlWkmWZi%2BzHL0ataK4g6aiJM7aKsfNZqbT4sT4joRzvlk4woanOS53Nx%2BoHUw6yok2qApexIdYhYXKWibF83br1KPdyzLbV1CBuSb6GaAlrlvuc8jGR6JhCrY%3D"}]}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - a5b0bed5bd3d7025-CDG
+    body:
+      encoding: UTF-8
+      string: "{\"announceAcceptedSubmissions\":true,\"bluesky\":\"@nitro-speedrun.com\",\"canEditSubmissions\":false,\"country\":null,\"defaultSetupTime\":\"PT15M\",\"description\":\"#
+        ---FRANCAIS--- # \\n\\n# Bienvenue au Nitro Days for SPDA 2026 organisé par
+        Nitro Speedrun ! # \\n\\n# ⚠️ A LIRE AVANT DE SUBMIT ⚠️ # \\n\\n# ⚡ Les bases
+        : # \\n\\n- Le Nitro Days for SPDA 2026 est un marathon caritatif en ligne
+        bénéficiant la SPDA (https://www.spda.fr/), Un refuge animalier indépendant
+        et Association reconnue d'Intérêt Général depuis Mars 2025.\\n- Pendant le
+        Nitro Days, nous présenteront du Speedrun mais aussi les différents formats
+        de Nitro Speedrun. Pour ce faire, nous cherchons des grosses courses, des
+        randomizers/archipelagos, des runs longues, du blindfolded, des showcases,
+        tout ce qu'il vous passe par la tête !\\n\\n# \U0001F4C6 Les dates : # \\n\\n-
+        Inscriptions ouvertes du **Vendredi 4 Septembre à 20:00 au Dimanche 27 Septembre
+        à 23:59**.\\n- Communication du planning le **Vendredi 30 Octobre à 19:00**.\\n-
+        Live du Vendredi **27 Novembre à 18:00 au Dimanche 29 Novembre à 22:00**.\\n-
+        Le live comprendra des coupures durant les nuits.\\n\\n# \U0001F4C3 Informations
+        complémentaires : # \\n\\n**Maintenant nous dissocions nos marathons Online
+        et IRL, ce qui veut dire qu'un jeu séléctionné pour un Nitro Days ne sera
+        pas pénalisé pour un Nitro Speedrun Festival et vice versa**.\\n\\n# Submits
+        : # \\n\\n- Limité à 5 jeux et/ou catégories pour chaque runner.euse. (Pour
+        submit plusieurs catégorie du même jeu, vous n'avez qu'à rentrer le jeu une
+        2nd fois.)\\n- Nous aurons des layouts pour 4 runners simultanés, mais nous
+        pouvons nous arranger pour plus dépendant du format !\\n- Précisez dans vos
+        submits les incentives, bidwars, prédictions et à chaque fois le temps à ajouter
+        à votre estimate.\\n- Ne vous limitez pas en terme d'animation ou de durée
+        des runs, rien n'est impossible chez Nitro !\\n- Attention à bien mettre des
+        estimates en temps RTA (en temps réel) !!!\\n- Signalez nous toutes alertes
+        de contenu dans tes runs (violence excessive/gore, épilepsie, etc...)\\n-
+        Les jeux avec du contenu sexuel explicite, de la discrimination, et les jeux
+        de la franchise Harry Potter sont interdits et les candidatures seront ignorées.\\n\\n#
+        Commentaires : # \\n\\n- Vous pouvez choisir vous-même votre commentateur.ice,
+        si vous n'avez personnes nous pourrons en trouver.\\n- Votre commentateur.ice
+        doit avoir accès au discord, il/elle devra donc le rejoindre en amont.\\n-
+        Vous avez évidemment la possibilité de vous commenter vous-même si vous le
+        souhaitez.\\n\\n# Matériel/Setup : # \\n\\n- Vous devez avoir un internet
+        stable, car la run sera streamée depuis votre setup.\\n- Le jour J, tu seras
+        accompagné par l'équipe tech pour finaliser le setup.\\n\\nL'équipe Nitro
+        Speedrun te remercie d'avoir pris le temps de lire ❤️\\n\\n\\n# ---ENGLISH---
+        #\\n\\n# Welcome to Nitro Days for SPDA 2026 organized by Nitro Speedrun!
+        # \\n\\n# ⚠️ PLEASE READ BEFORE SUBMITTING ⚠️ # \\n\\n# ⚡ The Basics: # \\n\\n-
+        Nitro Days for SPDA 2026 is an online charity marathon benefitting SPDA (https://www.spda.fr/),
+        An independant animal shelter.\\n- During the Nitro Days, we will be showcasing
+        speedrun as well as different Nitro Speedrun formats, to do so, we are looking
+        for a big races, randomizers/archipelagos, longer runs, blindfolded, showcases,
+        you name it!\\n\\n# \U0001F4C6 Important Dates: # \\n\\n- Submissions open
+        from **Friday, September 4 at 8:00 PM to Sunday, September 27 at 11:59 PM**.\\n-
+        Schedule announcement on **Friday, October 30 at 7:00 PM**.\\n- Online event
+        from **Friday, November 27 at 6:00 PM to Sunday, November 29 at 10:00 PM**.\\n-
+        Stream will be cut during nights\\n\\n# \U0001F4C3 Additional Information:
+        # \\n\\n**We are now separating our online and in-real-life marathons, which
+        means that a game selected for a Nitro Days event will not be penalised for
+        a Nitro Speedrun Festival, and vice versa.**\\n\\n# Submissions: # \\n\\n-
+        Limited to 5 games and/or categories per entrant. (To submit entries for multiple
+        categories of the same game, simply enter the game a second time.)\\n- Layouts
+        may be designed for up to 4 runners for a race, but we could accomodate more.\\n-
+        Please include in your submission all incentives, bidwars, and predictions,
+        along with the extra time to be added to your estimate.\\n- Don’t hold back
+        in terms of showmanship or run length—nothing is impossible at Nitro!\\n-
+        Important: Make sure to use RTA (real-time) estimates!\\n- Please specify
+        trigger warnings for your run (excessive violence/gore, epilepsy, etc...)\\n-
+        Games with overly sexual content, discrimination, and games from the Harry
+        Potter franchise are banned from the event and submits will be ignored.\\n\\n#
+        Commentary: # \\n\\n- You can choose your own commentator if you have someone
+        in mind—otherwise, we’ll assign one to you.\\n- Your commentator must speak
+        in french but of course you can interact and talk a bit in english too.\\n-
+        You can recommand someone for the english restream too!\\n- Your commentator
+        must have access to Discord and should join the server ahead of time.\\n\\n#
+        Equipment / Setup: # \\n\\n- You are required to have stable internet, as
+        the run will be streamed from your setup.\\n- On the big day, the tech team
+        will assist you in finalizing your setup.\\n\\nThe Nitro Speedrun team thanks
+        you for taking the time to read this ❤️\",\"discord\":\"tSVHSKsybG\",\"discordGuildId\":\"1012050852275560599\",\"discordGuildName\":\"Nitro
+        Speedrun\",\"discordPrivacy\":false,\"discordRequired\":true,\"donationCurrency\":null,\"donationsOpen\":true,\"donationsTotal\":null,\"emulatorAuthorized\":true,\"endDate\":\"2026-11-29T21:30:00Z\",\"hasDonations\":false,\"hasIncentives\":false,\"hasMultiplayer\":true,\"hasSubmitted\":false,\"id\":\"NDS3\",\"isPrivate\":false,\"language\":\"fr\",\"location\":null,\"mastodon\":null,\"maxCategoriesPerGame\":1,\"maxGamesPerRunner\":5,\"maxNumberOfScreens\":4,\"name\":\"Nitro
+        Days for SPDA 2026\",\"onsite\":false,\"payee\":null,\"questions\":[{\"description\":\"\",\"fieldType\":\"SELECT\",\"id\":8218,\"label\":\"
+        Voulez vous être interviewé après votre run? / Do you wish to be interviewed
+        after your run?\",\"options\":[\"Oui / Yes\",\"Non / No\"],\"position\":0,\"questionType\":\"SUBMISSION\",\"required\":true},{\"description\":\"\",\"fieldType\":\"TEXT\",\"id\":8216,\"label\":\"Quels
+        sont vos pronoms d'usage? / What are your preferred pronouns?\",\"options\":[],\"position\":1,\"questionType\":\"SUBMISSION\",\"required\":false},{\"description\":\"\",\"fieldType\":\"TEXTAREA\",\"id\":8217,\"label\":\"Pouvez-vous
+        décrire vos potentiels incentives? / Please describe your possible incentives
+        ?\",\"options\":[],\"position\":2,\"questionType\":\"SUBMISSION\",\"required\":false},{\"description\":\"\",\"fieldType\":\"TEXTAREA\",\"id\":8219,\"label\":\"Pouvez-vous
+        noter les trigger warnings de vos runs ? / Could you please note the trigger
+        warnings ?\",\"options\":[],\"position\":3,\"questionType\":\"SUBMISSION\",\"required\":false}],\"scheduleDone\":true,\"selectionDone\":true,\"startDate\":\"2026-11-27T17:00:00Z\",\"submissionsEndDate\":\"2026-09-27T21:59:00Z\",\"submissionsStartDate\":\"2026-09-04T18:00:00Z\",\"submitsOpen\":false,\"supportedCharity\":null,\"teams\":null,\"twitch\":\"nitro_speedrun\",\"twitter\":\"Nitro_Speedrun\",\"unlimitedCategories\":false,\"unlimitedGames\":false,\"userInfoHidden\":null,\"videoRequired\":true,\"webhook\":null,\"youtube\":\"https://www.youtube.com/channel/UCW8jjfq3NrIBanEIWF2-ALw\"}"
+  recorded_at: Sun, 15 Nov 2026 19:43:34 GMT
+- request:
+    method: get
+    uri: https://oengus.io/api/v2/marathons/NDS3/schedules
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - SpeedrunHubFR
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 15 Nov 2026 19:43:32 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      Cache-Control:
+      - max-age=60, must-revalidate, public
+      Permissions-Policy:
+      - interest-cohort=(), web-share=(self "https://oengus.fun" "https://ong.run")
+      Referrer-Policy:
+      - no-referrer
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Access-Control-Request-Headers
+      - Access-Control-Request-Method
+      - Origin
+      Via:
+      - 1.1 Caddy
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      - DENY
+      X-Xss-Protection:
+      - '0'
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+      Last-Modified:
+      - Sun, 15 Nov 2026 19:43:32 GMT
+      Cf-Cache-Status:
+      - EXPIRED
+      Report-To:
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=CeieJley7Z7l%2BL2Ner6Cg9iXc0Ga2%2FW%2FlXyV9%2BCy2FckkOIwYjXV77%2BQCFuH2fvuhcw21k7EolZ2rn1MhMr9%2B5o862fjamSLjbuJ9DsjBFdMjRqv34pe9hOQK5g%3D"}]}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - a5b0bed66c453f0a-CDG
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":1818,"marathonId":"NDS3","name":"Nitro Days for SPDA
+        2026","published":true,"slug":"spda2026"}]}'
+  recorded_at: Sun, 15 Nov 2026 19:43:34 GMT
+- request:
+    method: get
+    uri: https://oengus.io/api/v2/marathons/NDS3/schedules/for-slug/spda2026?withCustomData=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - SpeedrunHubFR
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 15 Nov 2026 19:43:33 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      Cache-Control:
+      - max-age=60, must-revalidate, public
+      Permissions-Policy:
+      - interest-cohort=(), web-share=(self "https://oengus.fun" "https://ong.run")
+      Referrer-Policy:
+      - no-referrer
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Access-Control-Request-Headers
+      - Access-Control-Request-Method
+      - Origin
+      Via:
+      - 1.1 Caddy
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      - DENY
+      X-Xss-Protection:
+      - '0'
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+      Last-Modified:
+      - Sun, 15 Nov 2026 19:43:33 GMT
+      Cf-Cache-Status:
+      - EXPIRED
+      Report-To:
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=vDTrGDKqa3r9eKfkE7i0z1ZIM7LUI411fEgII4xSMSDQt3zAbRbOODcQEvxtpWoim2jKN9HliVOy6URAL8SjeifwN6btyc8wdIRGNZwjIMSUZs9Av4YSdqbeCD8%3D"}]}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - a5b0bed72e230367-CDG
+    body:
+      encoding: UTF-8
+      string: '{"id":1818,"lines":[{"category":"Any%","categoryId":100030,"console":"Switch","customData":null,"customRun":false,"date":"2026-11-27T17:00:00Z","emulated":false,"estimate":"PT39M","game":"Pikmin
+        3 Deluxe","id":55461,"position":0,"ratio":"1920x1080","runners":[{"profile":{"displayName":"lemery"},"runnerName":"lemery"}],"setupBlock":false,"setupBlockText":"","setupTime":"PT15M","type":"SINGLE"},{"category":"Any%
+        No Restrictions","categoryId":99624,"console":"PC","customData":null,"customRun":false,"date":"2026-11-27T17:54:00Z","emulated":false,"estimate":"PT32M","game":"Pipistrello
+        and the Cursed Yoyo","id":55462,"position":1,"ratio":"16:9","runners":[{"profile":{"displayName":"nimelya"},"runnerName":"nimelya"}],"setupBlock":false,"setupBlockText":"","setupTime":"PT15M","type":"SINGLE"},{"category":"Any%
+        no death abuse","categoryId":99569,"console":"Switch 2","customData":null,"customRun":false,"date":"2026-11-27T18:41:00Z","emulated":false,"estimate":"PT1H20M","game":"Splatoon
+        2: Octo Expansion","id":55463,"position":2,"ratio":"16/9","runners":[{"profile":{"displayName":"Moxxi"},"runnerName":"Moxxi"}],"setupBlock":false,"setupBlockText":"","setupTime":"PT15M","type":"SINGLE"},{"category":"Story
+        - Single Character (Very Hard mode - The Silent Redhood)","categoryId":99729,"console":"PC","customData":null,"customRun":false,"date":"2026-11-27T20:16:00Z","emulated":false,"estimate":"PT22M","game":"Maiden
+        & Spell","id":55466,"position":3,"ratio":"16:9","runners":[{"profile":{"displayName":"Getarez"},"runnerName":"Getarez"}],"setupBlock":false,"setupBlockText":"","setupTime":"PT15M","type":"SINGLE"},{"category":"Any%
+        hard NG","categoryId":100012,"console":"PC","customData":null,"customRun":false,"date":"2026-11-27T20:53:00Z","emulated":false,"estimate":"PT1H30M","game":"Metal
+        Gear Rising : Revengeance","id":55467,"position":4,"ratio":"16:9","runners":[{"profile":{"displayName":"Xogiga"},"runnerName":"Xogiga"}],"setupBlock":false,"setupBlockText":"","setupTime":"PT15M","type":"SINGLE"},{"category":"100%","categoryId":99809,"console":"PlayStation
+        5","customData":null,"customRun":false,"date":"2026-11-27T22:38:00Z","emulated":false,"estimate":"PT2H12M","game":"Beyond
+        Good & Evil - 20th Anniversary Edition","id":55464,"position":5,"ratio":"1920x1080","runners":[{"profile":{"displayName":"Kouroto"},"runnerName":"Kouroto"}],"setupBlock":false,"setupBlockText":"","setupTime":"PT15M","type":"SINGLE"},{"category":"","categoryId":0,"console":"","customData":null,"customRun":true,"date":"2026-11-28T01:05:00Z","emulated":false,"estimate":"PT0S","game":"","id":55465,"position":6,"ratio":"","runners":[],"setupBlock":true,"setupBlockText":"DODO","setupTime":"PT5H55M","type":"OTHER"},{"category":"Any%
+        No FPS Abuse","categoryId":100046,"console":"PC","customData":null,"customRun":false,"date":"2026-11-28T07:00:00Z","emulated":false,"estimate":"PT48M","game":"Hob","id":55468,"position":7,"ratio":"16:9","runners":[{"profile":{"displayName":"Matash"},"runnerName":"Matash"}],"setupBlock":false,"setupBlockText":"","setupTime":"PT15M","type":"SINGLE"},{"category":"Any%","categoryId":99860,"console":"PC","customData":null,"customRun":false,"date":"2026-11-28T08:03:00Z","emulated":false,"estimate":"PT31M","game":"Haiku
+        the Robot","id":55469,"position":8,"ratio":"1920x1080","runners":[{"profile":{"displayName":"JeremRaccoon"},"runnerName":"JeremRaccoon"}],"setupBlock":false,"setupBlockText":"","setupTime":"PT15M","type":"SINGLE"},{"category":"All
+        Levels (Out of Bounds)","categoryId":99999,"console":"PC","customData":null,"customRun":false,"date":"2026-11-28T08:49:00Z","emulated":false,"estimate":"PT23M","game":"Disney''s
+        102 Dalmatians: Puppies to the Rescue","id":55470,"position":9,"ratio":"4/3","runners":[{"profile":{"displayName":"LusTher"},"runnerName":"LusTher"}],"setupBlock":false,"setupBlockText":"","setupTime":"PT15M","type":"SINGLE"},{"category":"Any%","categoryId":99789,"console":"PC","customData":null,"customRun":false,"date":"2026-11-28T09:27:00Z","emulated":false,"estimate":"PT32M","game":"Yellow
+        Taxi Goes Vroom","id":55471,"position":10,"ratio":"16:9","runners":[{"profile":{"displayName":"Gyoo"},"runnerName":"Gyoo"}],"setupBlock":false,"setupBlockText":"","setupTime":"PT15M","type":"SINGLE"},{"category":"True
+        RNG CSR","categoryId":100017,"console":"PC","customData":null,"customRun":false,"date":"2026-11-28T10:14:00Z","emulated":false,"estimate":"PT3H20M","game":"Final
+        Fantasy X","id":55472,"position":11,"ratio":"1920x1080","runners":[{"profile":{"displayName":"Name
+        or Nickname"},"runnerName":"Name or Nickname"}],"setupBlock":false,"setupBlockText":"","setupTime":"PT15M","type":"SINGLE"},{"category":"Any%
+        Restricted","categoryId":100005,"console":"PC","customData":null,"customRun":false,"date":"2026-11-28T13:49:00Z","emulated":false,"estimate":"PT30M","game":"Gecko
+        Gods","id":55473,"position":12,"ratio":"1920x1080","runners":[{"profile":{"displayName":"SamoSs"},"runnerName":"SamoSs"}],"setupBlock":false,"setupBlockText":"","setupTime":"PT15M","type":"SINGLE"},{"category":"ANY%
+        1P1C HARD","categoryId":99971,"console":"Super Nintendo","customData":null,"customRun":false,"date":"2026-11-28T14:34:00Z","emulated":true,"estimate":"PT30M","game":"Teenage
+        Mutant Ninja Turtles IV: Turtles in Time","id":55474,"position":13,"ratio":"4/3","runners":[{"profile":{"displayName":"Space_Croquette"},"runnerName":"Space_Croquette"}],"setupBlock":false,"setupBlockText":"","setupTime":"PT15M","type":"SINGLE"},{"category":"Coop
+        Bingo","categoryId":100057,"console":"PC","customData":null,"customRun":false,"date":"2026-11-28T15:19:00Z","emulated":false,"estimate":"PT1H30M","game":"Blue
+        Prince","id":55475,"position":14,"ratio":"16/9","runners":[{"profile":{"displayName":"DrakeLeLionBlanc"},"runnerName":"DrakeLeLionBlanc"},{"profile":{"displayName":"Axeran"},"runnerName":"Axeran"}],"setupBlock":false,"setupBlockText":"","setupTime":"PT15M","type":"COOP"},{"category":"Silver
+        Story No Credits Warp","categoryId":99995,"console":"Xbox 360","customData":null,"customRun":false,"date":"2026-11-28T17:04:00Z","emulated":false,"estimate":"PT1H15M","game":"Sonic
+        the Hedgehog (2006)","id":55476,"position":15,"ratio":"16:9","runners":[{"profile":{"displayName":"Chachoukie"},"runnerName":"Chachoukie"}],"setupBlock":false,"setupBlockText":"","setupTime":"PT15M","type":"SINGLE"},{"category":"Any%","categoryId":99750,"console":"PC","customData":null,"customRun":false,"date":"2026-11-28T18:34:00Z","emulated":false,"estimate":"PT30M","game":"Bubsy
+        3D: Furbitten Planet","id":55477,"position":16,"ratio":"16/9","runners":[{"profile":{"displayName":"Chachamaxx"},"runnerName":"Chachamaxx"}],"setupBlock":false,"setupBlockText":"","setupTime":"PT15M","type":"SINGLE"},{"category":"100%","categoryId":100055,"console":"Nintendo
+        DS","customData":null,"customRun":false,"date":"2026-11-28T19:19:00Z","emulated":true,"estimate":"PT25M","game":"Bienvenue
+        chez les Ch''tis","id":55478,"position":17,"ratio":"256x192","runners":[{"profile":{"displayName":"Bouzny"},"runnerName":"Bouzny"}],"setupBlock":false,"setupBlockText":"","setupTime":"PT15M","type":"SINGLE"},{"category":"Duology%","categoryId":100018,"console":"PC","customData":null,"customRun":false,"date":"2026-11-28T19:59:00Z","emulated":false,"estimate":"PT1H30M","game":"Max
+        Payne 1 & 2","id":55479,"position":18,"ratio":"16:9","runners":[{"profile":{"displayName":"Hooki"},"runnerName":"Hooki"}],"setupBlock":false,"setupBlockText":"","setupTime":"PT15M","type":"SINGLE"},{"category":"Any%
+        Current Patch","categoryId":100077,"console":"PC","customData":null,"customRun":false,"date":"2026-11-28T21:44:00Z","emulated":false,"estimate":"PT1H5M","game":"FEAR","id":55480,"position":19,"ratio":"16/9","runners":[{"profile":{"displayName":"Goldorak"},"runnerName":"Goldorak"}],"setupBlock":false,"setupBlockText":"","setupTime":"PT15M","type":"SINGLE"},{"category":"Any%","categoryId":100009,"console":"PC","customData":null,"customRun":false,"date":"2026-11-28T23:04:00Z","emulated":false,"estimate":"PT1H45M","game":"Skate
+        Story","id":55481,"position":20,"ratio":"1920x1080","runners":[{"profile":{"displayName":"Disduck_"},"runnerName":"Disduck_"}],"setupBlock":false,"setupBlockText":"","setupTime":"PT15M","type":"SINGLE"},{"category":"","categoryId":0,"console":"","customData":null,"customRun":true,"date":"2026-11-29T01:04:00Z","emulated":false,"estimate":"PT0S","game":"","id":55482,"position":21,"ratio":"","runners":[],"setupBlock":true,"setupBlockText":"DODO
+        2","setupTime":"PT5H56M","type":"OTHER"},{"category":"Any% Glitchless","categoryId":100007,"console":"Game
+        Boy Color","customData":null,"customRun":false,"date":"2026-11-29T07:00:00Z","emulated":true,"estimate":"PT2H","game":"Pokémon
+        Red/Blue","id":55483,"position":22,"ratio":"10:9","runners":[{"profile":{"displayName":"AEtienne"},"runnerName":"AEtienne"}],"setupBlock":false,"setupBlockText":"","setupTime":"PT15M","type":"SINGLE"},{"category":"Champion%
+        Unrestricted","categoryId":99970,"console":"Switch","customData":null,"customRun":false,"date":"2026-11-29T09:15:00Z","emulated":false,"estimate":"PT50M","game":"The
+        Legend of Zelda: Breath of the Wild","id":55484,"position":23,"ratio":"16:9","runners":[{"profile":{"displayName":"Frozen_Bnk"},"runnerName":"Frozen_Bnk"}],"setupBlock":false,"setupBlockText":"","setupTime":"PT15M","type":"SINGLE"},{"category":"No
+        LTS","categoryId":100061,"console":"PC","customData":null,"customRun":false,"date":"2026-11-29T10:20:00Z","emulated":false,"estimate":"PT32M","game":"Gordon
+        and Daxter","id":55485,"position":24,"ratio":"16:9","runners":[{"profile":{"displayName":"TheBakaRem"},"runnerName":"TheBakaRem"}],"setupBlock":false,"setupBlockText":"","setupTime":"PT15M","type":"SINGLE"},{"category":"Any%
+        (all topings)","categoryId":100045,"console":"PC","customData":null,"customRun":false,"date":"2026-11-29T11:07:00Z","emulated":false,"estimate":"PT35M","game":"PizzaBoy","id":55486,"position":25,"ratio":"16/9","runners":[{"profile":{"displayName":"DrakeLeLionBlanc"},"runnerName":"DrakeLeLionBlanc"}],"setupBlock":false,"setupBlockText":"","setupTime":"PT15M","type":"SINGLE"},{"category":"Random
+        Map Objective (15 AT)","categoryId":99965,"console":"PC","customData":null,"customRun":false,"date":"2026-11-29T11:57:00Z","emulated":false,"estimate":"PT45M","game":"Trackmania","id":55487,"position":26,"ratio":"16:9","runners":[{"profile":{"displayName":"Speedself"},"runnerName":"Speedself"}],"setupBlock":false,"setupBlockText":"","setupTime":"PT15M","type":"SINGLE"},{"category":"Any%
+        - Easy - Glitchless","categoryId":99997,"console":"PlayStation 5","customData":null,"customRun":false,"date":"2026-11-29T12:57:00Z","emulated":false,"estimate":"PT1H24M","game":"The
+        Adventures of Elliot: the Millennium Tales","id":55488,"position":27,"ratio":"16:9","runners":[{"profile":{"displayName":"Le
+        Retroscope"},"runnerName":"Le Retroscope"}],"setupBlock":false,"setupBlockText":"","setupTime":"PT15M","type":"SINGLE"},{"category":"Any%","categoryId":100108,"console":"PC","customData":null,"customRun":false,"date":"2026-11-29T14:36:00Z","emulated":false,"estimate":"PT25M","game":"STUNTBOOST","id":55489,"position":28,"ratio":"16:9","runners":[{"profile":{"displayName":"AsLirith"},"runnerName":"AsLirith"}],"setupBlock":false,"setupBlockText":"","setupTime":"PT15M","type":"SINGLE"},{"category":"Randomizer","categoryId":99989,"console":"PC","customData":null,"customRun":false,"date":"2026-11-29T15:16:00Z","emulated":false,"estimate":"PT2H","game":"Minishoot''
+        Adventures","id":55490,"position":29,"ratio":"16:9","runners":[{"profile":{"displayName":"maclaque"},"runnerName":"maclaque"}],"setupBlock":false,"setupBlockText":"","setupTime":"PT15M","type":"SINGLE"},{"category":"No
+        Major Glitches (New Game+)","categoryId":100086,"console":"PC","customData":null,"customRun":false,"date":"2026-11-29T17:31:00Z","emulated":false,"estimate":"PT50M","game":"Sword
+        of the Sea","id":55491,"position":30,"ratio":"1920x1080","runners":[{"profile":{"displayName":"Eveldee"},"runnerName":"Eveldee"},{"profile":{"displayName":"Cookies"},"runnerName":"Cookies"}],"setupBlock":false,"setupBlockText":"","setupTime":"PT15M","type":"RACE"},{"category":"Showcase%","categoryId":100102,"console":"PC","customData":null,"customRun":false,"date":"2026-11-29T18:36:00Z","emulated":false,"estimate":"PT47M","game":"In
+        Falsus","id":55492,"position":31,"ratio":"16:9","runners":[{"profile":{"displayName":"Okami"},"runnerName":"Okami"}],"setupBlock":false,"setupBlockText":"","setupTime":"PT15M","type":"SINGLE"},{"category":"Any%
+        Restricted","categoryId":99584,"console":"PC","customData":null,"customRun":false,"date":"2026-11-29T19:38:00Z","emulated":false,"estimate":"PT25M","game":"Crow
+        Country","id":55493,"position":32,"ratio":"1920x1080","runners":[{"profile":{"displayName":"Megion"},"runnerName":"Megion"}],"setupBlock":false,"setupBlockText":"","setupTime":"PT15M","type":"SINGLE"},{"category":"Any%","categoryId":99672,"console":"PC","customData":null,"customRun":false,"date":"2026-11-29T20:18:00Z","emulated":false,"estimate":"PT42M","game":"Deus
+        ex","id":55494,"position":33,"ratio":"16/9","runners":[{"profile":{"displayName":"Iluvan"},"runnerName":"Iluvan"}],"setupBlock":false,"setupBlockText":"","setupTime":"PT15M","type":"SINGLE"},{"category":"","categoryId":0,"console":"","customData":null,"customRun":true,"date":"2026-11-29T21:15:00Z","emulated":false,"estimate":"PT0S","game":"","id":55495,"position":34,"ratio":"","runners":[],"setupBlock":true,"setupBlockText":"Outro","setupTime":"PT15M","type":"OTHER"}],"marathonId":"NDS3","name":"Nitro
+        Days for SPDA 2026","published":true,"slug":"spda2026"}'
+  recorded_at: Sun, 15 Nov 2026 19:43:35 GMT
+- request:
+    method: get
+    uri: https://oengus.io/api/v1/marathons/cst2026
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - SpeedrunHubFR
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 15 Nov 2026 19:43:33 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      Cache-Control:
+      - max-age=60, must-revalidate, public
+      Permissions-Policy:
+      - interest-cohort=(), web-share=(self "https://oengus.fun" "https://ong.run")
+      Referrer-Policy:
+      - no-referrer
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Access-Control-Request-Headers
+      - Access-Control-Request-Method
+      - Authorization
+      - Origin
+      Via:
+      - 1.1 Caddy
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      - DENY
+      X-Xss-Protection:
+      - '0'
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+      Last-Modified:
+      - Sun, 15 Nov 2026 19:43:33 GMT
+      Cf-Cache-Status:
+      - EXPIRED
+      Report-To:
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=qphG4ogPJaLiao6F3gS0r4t7aMeVyIgLm7kICccYCqRJUewzGghijGSrAtsAEemn3sI%2FkW2FeyW9IMwjN1ds3X8EvlTCnjGthoCSmt%2B58zromE6AFWTdZz1vsEQ%3D"}]}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - a5b0bed8aaafd479-CDG
+    body:
+      encoding: UTF-8
+      string: "{\"announceAcceptedSubmissions\":false,\"bluesky\":\"@drakelelionblanc.bsky.social\",\"canEditSubmissions\":true,\"country\":null,\"defaultSetupTime\":\"PT15M\",\"description\":\"#
+        \U0001F3AE Présentation\\n**Celet's Speed** est une émission régulière de
+        speedrun animée sur la chaîne de DrakeLeLionBlanc.\\n\\nL'objectif de l'émission
+        est simple :\\n* tester votre run en conditions réelles et sans pression ;\\n*
+        vous permettre d'avoir une belle VOD de votre run ;\\n* faire vivre la communauté
+        speedrun tout au long de l'année.\\n\\nPour fêter les **3 ans de Celet's Speed**,
+        l'émission passe exceptionnellement au format **marathon** pendant plusieurs
+        jours !\\nAucune restriction particulière sur vos propositions : speedrun,
+        superplay, showcase, randomizer ou tout autre concept... **faites-vous (et
+        faites-nous) plaisir !**\\nCette édition accueillera également un **bloc anglophone
+        de 4 heures**, afin de permettre aux runners et commentateurs anglophones
+        de participer au marathon.\\n\\n# \U0001F5D3️ Candidatures & Planning\\n**Candidatures
+        ouvertes :** du 7 septembre 2026 au 8 novembre 2026 à 23h59.\\n**Annonce du
+        planning :** avant le 29 novembre 2026.\\n\\nTout type de run est accepté
+        : speedrun, superplay, showcase, randomizer, challenge, etc.\\n\\n**La seule
+        limite : votre imagination !**\\n\\nLors de votre candidature, pensez à indiquer
+        vos disponibilités afin de faciliter la construction du planning.\\n\\n# \U0001F30D
+        Bloc anglophone\\nUn **bloc de 4 heures en anglais** sera intégré au marathon
+        (si possible !).\\n\\nCe bloc est destiné aux runners et commentateurs anglophones
+        souhaitant participer à l'événement.\\nIl représente également une première
+        expérience pour ouvrir Celet's Speed à une audience plus large et internationale,
+        tout en intégrant une partie importante de mon aventure dans le speedrun :
+        mon propre événement.\\n\\nC'est donc l'occasion de faire découvrir Celet's
+        Speed à de nouvelles personnes, mais aussi de partager avec la communauté
+        anglophone une émission qui occupe une place importante dans mon parcours
+        de speedrunner.\\nLes runs présentés durant ce bloc devront être **présentés
+        et commentés en anglais**.\\n\\nLes mêmes principes que pour le reste du marathon
+        s'appliquent :\\n* tous les types de runs sont les bienvenus ;\\n* aucune
+        restriction particulière sur les jeux ;\\n* indiquez un estimate RTA réaliste
+        ;\\n* renseignez vos disponibilités lors de votre candidature.\\n\\nLe bloc
+        anglophone durera environ **4 heures** et sera intégré au planning général
+        du marathon.\\n\\n# ⏰ Disponibilités & Organisation du Marathon\\nLe marathon
+        se déroulera du **10/12 au 13/12**.\\nLe bloc anglophone de 4 heures sera
+        intégré au planning du marathon.\\nAfin de permettre au plus grand nombre
+        de participer et de faciliter l'organisation, le planning pourra également
+        s'étendre sur **une soirée supplémentaire** avant le marathon.\\nCette soirée
+        prendra la forme d'un **Celet's Speed classique**, afin de lancer les festivités
+        plus tôt et de potentiellement accueillir davantage de runs.\\n\\n⚠️ **Aucun
+        horaire ne sera prévu entre 2h et 9h du matin (CEST).**\\nLes disponibilités
+        indiquées lors de votre candidature seront prises en compte autant que possible,
+        mais elles ne garantissent pas un horaire précis.\\n\\n# \U0001F4A1 Informations
+        complémentaires\\n\\n## \U0001F50E Review\\nUne équipe de review sera constituée
+        pour l'occasion afin d'étudier les propositions et de construire un planning
+        cohérent.\\nSi vous souhaitez participer à la review, surveillez mon **Bluesky**
+        et mon **Discord** pour les informations concernant le recrutement.\\nLa team
+        review respectera la charte de mes événements, disponible ici :\\nhttps://docs.google.com/document/d/12PWXWDM4P6imcQAhodCjkqJa2l42vMs1LhjBjK8zAus/edit?usp=sharing\\n\\n##
+        ⏱️ Estimates\\nAssurez-vous d'indiquer vos estimates en **RTA (Real Time Attack
+        / temps réel)**.\\n⚠️ **Ne prenez pas votre PB (Personal Best) comme estimate.**\\nVotre
+        estimate doit correspondre à la durée que vous pensez raisonnablement nécessaire
+        pour terminer votre run dans les conditions du marathon.\\nPrévoyez une marge
+        d'erreur généreuse afin d'éviter tout stress inutile pendant votre passage.\\n\\n##
+        \U0001F6E0️ Setup\\nUn guide de setup sera fourni lors de l'annonce du planning.\\nUn
+        **check technique** sera également organisé afin de s'assurer que tout fonctionnera
+        correctement le jour du marathon.\\n\\n✅ Assurez-vous d'avoir une connexion
+        suffisamment stable pour streamer en **720p minimum**.\\n\\n# \U0001F4E1 Diffusion
+        & Réseaux sociaux\\nLe marathon sera diffusé sur :\\n**Twitch :** twitch.tv/drakelelionblanc\\n**Bluesky
+        :** drakelelionblanc.bsky.social\\n\\nL'événement se déroulera sur mon Discord
+        :\\nhttps://discord.gg/NqYr4FHvsz\\n\\nIl s'agit de mon Discord personnel
+        : vous êtes évidemment libres de le quitter après le marathon.\\n\\nPensez
+        à **accepter les règles du serveur** afin d'avoir accès aux différents salons.\\n\\nToutes
+        les informations importantes concernant le marathon seront communiquées dans
+        le salon **#cst-marathon-speedrun**.\\n\\n\\n*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*\\n\\n#
+        \U0001F3AE About\\n**Celet's Speed** is a regular speedrunning show hosted
+        on DrakeLeLionBlanc's Twitch channel.\\n\\nThe goal of the show is simple:\\n*
+        test your run in real conditions, without pressure;\\n* give you a nice VOD
+        of your run;\\n* keep the speedrunning community active throughout the year.\\n\\nTo
+        celebrate **Celet's Speed's 3rd anniversary**, the show is making the jump
+        to a **multi-day online marathon**!\\nThere are no specific restrictions on
+        what you can submit: speedruns, superplays, showcases, randomizers, or anything
+        else... **have fun and make us have fun!**\\nThis edition will also feature
+        a dedicated **4-hour English-language block**, giving English-speaking runners
+        and commentators the opportunity to take part in the marathon.\\n\\n# \U0001F5D3️
+        Submissions & Schedule\\n**Submissions open:** September 7, 2026 to November
+        8, 2026 at 11:59 PM.\\n**Schedule announcement:** by November 29, 2026.\\n\\nAll
+        types of runs are welcome: speedruns, superplays, showcases, randomizers,
+        challenges, etc.\\n**The only limit is your imagination!**\\nWhen submitting
+        your run, please make sure to provide your availability to help with the scheduling
+        process.\\n\\n# \U0001F30D English Block\\nA dedicated **4-hour English-language
+        block** will be part of the marathon.\\nThis block is intended for English-speaking
+        runners and commentators who would like to participate in the event.\\nRuns
+        featured during this block should be **presented and commentated in English**.\\n\\nThe
+        English Block will last approximately **4 hours** and will be scheduled as
+        part of the main marathon.\\nDon't speak French? **No problem, you're welcome
+        to join us anyway!**\\n\\n# ⏰ Availability & Marathon Schedule\\nThe marathon
+        will take place from **December 10 to December 13**.\\nThe 4-hour English
+        Block will be integrated into the main marathon schedule.\\nDepending on the
+        number of submissions, the schedule may also be extended with **an additional
+        evening** before the main marathon.\\nThis additional evening will follow
+        the usual **Celet's Speed format**, allowing us to kick off the festivities
+        earlier and potentially fit in more runs.\\n\\n⚠️ **No runs will be scheduled
+        between 2 AM and 9 AM (CEST).**\\n\\nThe availability you provide in your
+        submission will be taken into account as much as possible, but it does not
+        guarantee a specific time slot.\\n\\n# \U0001F4A1 Additional Information\\n##
+        \U0001F50E Review\\nThe review team will follow the event charter, available
+        here (available in french only for now) :\\nhttps://docs.google.com/document/d/12PWXWDM4P6imcQAhodCjkqJa2l42vMs1LhjBjK8zAus/edit?usp=sharing\\n\\n##
+        ⏱️ Estimates\\nPlease provide your estimate in **RTA (Real Time Attack)**.\\n⚠️
+        **Do not use your PB (Personal Best) as your estimate.**\\nYour estimate should
+        reflect the amount of time you reasonably expect to need to complete your
+        run under marathon conditions.\\nPlease give yourself a generous buffer to
+        avoid unnecessary stress during your run.\\n\\n## \U0001F6E0️ Setup\\nA setup
+        guide will be provided when the schedule is announced.\\nA **technical check**
+        will also be organized to make sure everything works properly before the marathon.\\n\\n✅
+        Please make sure you have a stable enough internet connection to stream at
+        **720p minimum**.\\n\\n# \U0001F4E1 Broadcast & Social Media\\nThe marathon
+        will be streamed on:\\n**Twitch:** twitch.tv/drakelelionblanc\\n**Bluesky:**
+        drakelelionblanc.bsky.social\\n\\nThe event will take place on my Discord
+        server:\\nhttps://discord.gg/NqYr4FHvsz\\nThis is my personal Discord server,
+        so feel free to leave it once the marathon is over. It's also in french mainly
+        sodon't be surprised and don't hesitate to ask for help if lost !\\n\\nPlease
+        **accept the server rules** to gain access to the different channels. (in
+        #accueil)\\n\\nAll important marathon information will be posted in the **#cst-marathon-speedrun**
+        channel.\\n\\n\",\"discord\":\"NqYr4FHvsz\",\"discordGuildId\":\"161079565832159232\",\"discordGuildName\":\"Celestis
+        \U0001F308\",\"discordPrivacy\":false,\"discordRequired\":true,\"donationCurrency\":null,\"donationsOpen\":true,\"donationsTotal\":null,\"emulatorAuthorized\":true,\"endDate\":\"2026-12-13T22:59:00Z\",\"hasDonations\":false,\"hasIncentives\":false,\"hasMultiplayer\":true,\"hasSubmitted\":false,\"id\":\"cst2026\",\"isPrivate\":false,\"language\":\"fr\",\"location\":null,\"mastodon\":null,\"maxCategoriesPerGame\":3,\"maxGamesPerRunner\":5,\"maxNumberOfScreens\":4,\"name\":\"Celets
+        Speed Together 2026\",\"onsite\":false,\"payee\":null,\"questions\":[{\"description\":\"\",\"fieldType\":\"TEXTAREA\",\"id\":8295,\"label\":\"Trigger
+        Warning in submits ? (motion sickness, mature content, photosensibility, ...)\",\"options\":[],\"position\":0,\"questionType\":\"SUBMISSION\",\"required\":false},{\"description\":\"\",\"fieldType\":\"TEXT\",\"id\":8296,\"label\":\"What
+        are you prefered pronouns (french or english)\",\"options\":[],\"position\":1,\"questionType\":\"SUBMISSION\",\"required\":false}],\"scheduleDone\":false,\"selectionDone\":false,\"startDate\":\"2026-12-10T20:00:00Z\",\"submissionsEndDate\":\"2026-11-08T22:59:00Z\",\"submissionsStartDate\":\"2026-09-07T07:39:00Z\",\"submitsOpen\":false,\"supportedCharity\":null,\"teams\":null,\"twitch\":\"DrakeLeLionBlanc\",\"twitter\":null,\"unlimitedCategories\":false,\"unlimitedGames\":false,\"userInfoHidden\":null,\"videoRequired\":true,\"webhook\":\"oengus-bot?marathon=cst2026&newsub=1307075398030589952&editsub=1307075398030589952\",\"youtube\":\"https://www.youtube.com/@DrakeLeLionBlanc\"}"
+  recorded_at: Sun, 15 Nov 2026 19:43:35 GMT
+- request:
+    method: get
+    uri: https://oengus.io/api/v2/marathons/cst2026/schedules
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - SpeedrunHubFR
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Date:
+      - Sun, 15 Nov 2026 19:43:33 GMT
+      Content-Type:
+      - text/plain
+      Content-Length:
+      - '0'
+      Connection:
+      - keep-alive
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Expires:
+      - '0'
+      Permissions-Policy:
+      - interest-cohort=(), web-share=(self "https://oengus.fun" "https://ong.run")
+      Pragma:
+      - no-cache
+      Referrer-Policy:
+      - no-referrer
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Access-Control-Request-Headers
+      - Access-Control-Request-Method
+      - Origin
+      Via:
+      - 1.1 Caddy
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      - DENY
+      X-Xss-Protection:
+      - '0'
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+      Cf-Cache-Status:
+      - BYPASS
+      Report-To:
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=7dKuF6zycDoTQUXbG8RjLLVSjjfRfU7bFpTEetd7WVDsXJ1neVCroqRwynC5PNDJKSdPF%2F8hlvHFDn6M4Pcr1Wp8XnbaQbwrMGA2sNJpuUf9pN7rO%2B9ocLC5FY0%3D"}]}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - a5b0bed93f87d6c2-CDG
+    body:
+      encoding: UTF-8
+      string: ''
+  recorded_at: Sun, 15 Nov 2026 19:43:35 GMT
+recorded_with: VCR 6.4.1
