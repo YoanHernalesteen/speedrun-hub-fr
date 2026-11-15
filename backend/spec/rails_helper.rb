@@ -9,6 +9,7 @@ abort("The Rails environment is running in production mode!") if Rails.env.produ
 # return unless Rails.env.test?
 require 'rspec/rails'
 # Add additional requires below this line. Rails is not loaded until this point!
+require_relative 'support/vcr'
 
 # Requires supporting ruby files with custom matchers and macros, etc, in
 # spec/support/ and its subdirectories. Files matching `spec/**/*_spec.rb` are
@@ -72,4 +73,7 @@ RSpec.configure do |config|
 
   # Allow `create(:user)` instead of `FactoryBot.create(:user)`.
   config.include FactoryBot::Syntax::Methods
+
+  # Allow `freeze_time` and `travel_to` in specs.
+  config.include ActiveSupport::Testing::TimeHelpers
 end

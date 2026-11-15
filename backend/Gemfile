@@ -57,3 +57,11 @@ group :development, :test do
   # Test data factories [https://github.com/thoughtbot/factory_bot_rails]
   gem "factory_bot_rails", "~> 6.5"
 end
+
+group :test do
+  # Record and replay external HTTP calls [https://github.com/vcr/vcr]
+  gem "vcr", "~> 6.4"
+
+  # Block real HTTP calls and stub requests [https://github.com/bblimke/webmock]
+  gem "webmock", "~> 3.34"
+end
