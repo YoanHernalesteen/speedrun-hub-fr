@@ -1,6 +1,10 @@
 class ApplicationController < ActionController::API
   include Pundit::Authorization
 
+  # Fail loudly when an action forgets its authorization check.
+  after_action :verify_authorized
+  after_action :verify_policy_scoped, only: :index
+
   rescue_from Pundit::NotAuthorizedError, with: :render_forbidden
   rescue_from ActiveRecord::RecordNotFound, with: :render_not_found
 
