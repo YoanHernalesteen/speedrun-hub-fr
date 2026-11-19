@@ -154,5 +154,13 @@ RSpec.describe Events::Sources::Oengus do
 
       expect { source.fetch(from:, to:) }.to raise_error(Events::Sources::Oengus::Error)
     end
+
+    [ EOFError, IOError, Net::HTTPBadResponse ].each do |network_error|
+      it "raises an error when the connection fails with #{network_error}" do
+        stub_request(:get, "#{api}/v1/marathons/forDates").with(query: hash_including({})).to_raise(network_error)
+
+        expect { source.fetch(from:, to:) }.to raise_error(Events::Sources::Oengus::Error, /#{network_error}/)
+      end
+    end
   end
 end

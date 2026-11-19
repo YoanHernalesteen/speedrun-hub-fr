@@ -137,7 +137,8 @@ module Events
         else
           raise Error, "Oengus returned #{response.code} for #{path}"
         end
-      rescue Net::OpenTimeout, Net::ReadTimeout, SocketError, SystemCallError, OpenSSL::SSL::SSLError => e
+      rescue Net::OpenTimeout, Net::ReadTimeout, Net::HTTPBadResponse, SocketError, SystemCallError, IOError,
+             OpenSSL::SSL::SSLError => e
         raise Error, "Oengus request failed for #{path}: #{e.class}"
       rescue JSON::ParserError
         raise Error, "Oengus returned invalid JSON for #{path}"
