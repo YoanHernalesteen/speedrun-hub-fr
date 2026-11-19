@@ -1,10 +1,26 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>frontend</title>
+    <title>Speedrun Hub</title>
+    <script>
+      // Apply the theme before the first paint to avoid a flash.
+      // Same logic as src/features/theme/theme.ts.
+      ;(function () {
+        var stored = null
+        try {
+          stored = localStorage.getItem('theme')
+        } catch (e) {}
+        var dark =
+          stored === 'dark' ||
+          (stored !== 'light' &&
+            window.matchMedia('(prefers-color-scheme: dark)').matches)
+        document.documentElement.classList.toggle('dark', dark)
+        document.documentElement.style.colorScheme = dark ? 'dark' : 'light'
+      })()
+    </script>
   </head>
   <body>
     <div id="root"></div>
