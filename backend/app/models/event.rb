@@ -7,8 +7,9 @@ class Event < ApplicationRecord
     format: { with: HTTPS_URL, message: "must be an https URL" }, allow_nil: true
   validate :ends_after_start
 
+  scope :not_ended, ->(now = Time.current) { where(ends_at: now..) }
   # Live and future events (ended ones are kept but not listed).
-  scope :upcoming, ->(now = Time.current) { where(ends_at: now..).order(:starts_at) }
+  scope :upcoming, ->(now = Time.current) { not_ended(now).order(:starts_at) }
 
   # Computed on read so it stays accurate between daily imports.
   def status(now = Time.current)

@@ -37,8 +37,8 @@ module Events
 
     # Invalid events count as returned: their previous version is kept.
     def delete_missing(returned_ids)
-      Event.where(source: @source.name)
-        .where(ends_at: Time.current..)
+      Event.not_ended
+        .where(source: @source.name)
         .where.not(external_id: returned_ids)
         .delete_all
     end

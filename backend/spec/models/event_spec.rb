@@ -58,6 +58,16 @@ RSpec.describe Event, type: :model do
     end
   end
 
+  describe ".not_ended" do
+    it "returns live and future events, excluding ended ones" do
+      live = create(:event, starts_at: now - 1.hour, ends_at: now + 1.hour)
+      future = create(:event, starts_at: now + 2.days, ends_at: now + 3.days)
+      create(:event, starts_at: now - 3.days, ends_at: now - 1.day)
+
+      expect(described_class.not_ended(now)).to contain_exactly(live, future)
+    end
+  end
+
   describe ".upcoming" do
     it "returns live and future events ordered by start date, excluding ended ones" do
       later = create(:event, starts_at: now + 10.days, ends_at: now + 11.days)
