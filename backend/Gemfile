@@ -63,5 +63,5 @@ group :test do
   gem "vcr", "~> 6.4"
 
   # Block real HTTP calls and stub requests [https://github.com/bblimke/webmock]
-  gem "webmock", "~> 3.34"
+  gem "webmock", "~> 3.35"
 end
